@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot of a selectable room 1`] = `
+<div
+  className="w-full h-full md:w-1/2 lg:w-1/4 py-4 px-2  mb-6 md:mb-0 cursor-not-allowed"
+  disabled={true}
+>
+  <div
+    className="w-full h-full rounded p-3 bg-gray-500"
+  >
+    <label
+      className="block uppercase tracking-wide text-gray-500 text-lg font-bold mb-2 text-gray-600"
+      htmlFor="selected-2"
+    >
+      <input
+        checked={false}
+        className="mr-2 leading-tight"
+        id="selected-2"
+        onChange={[Function]}
+        selected={true}
+        type="checkbox"
+      />
+      Room 
+      2
+    </label>
+    <fieldset
+      aria-disabled={true}
+      disabled={true}
+    >
+      <label
+        className="block uppercase tracking-wide text-xs font-bold mb-2 cursor-not-allowed text-gray-300"
+        htmlFor="adults-2"
+      >
+        Adults (18+)
+      </label>
+      <div
+        className="relative pb-3"
+      >
+        <select
+          className="block appearance-none w-full bg-gray-200 border border-gray-200 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 cursor-not-allowed text-gray-500"
+          id="adults-2"
+          name="adults"
+          onChange={[Function]}
+          value={1}
+        >
+          <option
+            value="1"
+          >
+            1
+          </option>
+          <option
+            value="2"
+          >
+            2
+          </option>
+        </select>
+      </div>
+      <label
+        className="block uppercase tracking-wide text-xs font-bold mb-2 cursor-not-allowed text-gray-300"
+        htmlFor="children-2"
+      >
+        Children (0-17)
+      </label>
+      <div
+        className="relative pb-3"
+      >
+        <select
+          className="block appearance-none w-full bg-gray-200 border border-gray-200 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 cursor-not-allowed text-gray-500"
+          id="children-2"
+          name="children"
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value="0"
+          >
+            0
+          </option>
+          <option
+            value="1"
+          >
+            1
+          </option>
+          <option
+            value="2"
+          >
+            2
+          </option>
+        </select>
+      </div>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot of room number 1, which is always selected abnd cannot be unselected 1`] = `
+<div
+  className="w-full h-full md:w-1/2 lg:w-1/4 py-4 px-2  mb-6 md:mb-0"
+  disabled={false}
+>
+  <div
+    className="w-full h-full rounded p-3 bg-gray-800"
+  >
+    <label
+      className="block uppercase tracking-wide text-gray-500 text-lg font-bold mb-2"
+    >
+      Room 1
+    </label>
+    <fieldset
+      aria-disabled={false}
+      disabled={false}
+    >
+      <label
+        className="block uppercase tracking-wide text-xs font-bold mb-2 text-gray-200"
+        htmlFor="adults-1"
+      >
+        Adults (18+)
+      </label>
+      <div
+        className="relative pb-3"
+      >
+        <select
+          className="block appearance-none w-full bg-gray-200 border border-gray-200 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-gray-700"
+          id="adults-1"
+          name="adults"
+          onChange={[Function]}
+          value={1}
+        >
+          <option
+            value="1"
+          >
+            1
+          </option>
+          <option
+            value="2"
+          >
+            2
+          </option>
+        </select>
+      </div>
+      <label
+        className="block uppercase tracking-wide text-xs font-bold mb-2 text-gray-200"
+        htmlFor="children-1"
+      >
+        Children (0-17)
+      </label>
+      <div
+        className="relative pb-3"
+      >
+        <select
+          className="block appearance-none w-full bg-gray-200 border border-gray-200 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-gray-700"
+          id="children-1"
+          name="children"
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value="0"
+          >
+            0
+          </option>
+          <option
+            value="1"
+          >
+            1
+          </option>
+          <option
+            value="2"
+          >
+            2
+          </option>
+        </select>
+      </div>
+    </fieldset>
+  </div>
+</div>
+`;

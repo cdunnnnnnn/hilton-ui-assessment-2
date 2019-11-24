@@ -1,0 +1,32 @@
+{
+  "name": "hilton-ui-assessment-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest -u",
+    "test:coverage": "jest --coverage",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.1.4",
+    "node-sass": "^4.13.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.7.2",
+    "babel-jest": "^24.9.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.12.0",
+    "tailwindcss": "^1.1.3"
+  }
+}
